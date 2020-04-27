@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 import Slider from "react-slick";
 import { Link } from 'react-router-dom';
-import Header2 from './../Layout/Header2';
+import Header2 from './../Layout/Header';
 import Footer from './../Layout/Footer';
 
 const tourContent = [
