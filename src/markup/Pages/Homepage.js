@@ -186,7 +186,7 @@ class Homepage extends Component {
                         </ul>
                         <div className='clearfix'>
                           <span className='package-price pull-left text-primary'>
-                            Rs. 8000.00 Per Person
+                            Rs 8000
                           </span>
                           <Link
                             href='booking-details.html'
@@ -229,7 +229,7 @@ class Homepage extends Component {
                         </ul>
                         <div className='clearfix'>
                           <span className='package-price pull-left text-primary'>
-                            Rs. 8000.00 Per Person
+                            Rs 8000
                           </span>
                           <Link
                             href='booking-details.html'
@@ -270,7 +270,7 @@ class Homepage extends Component {
                         </ul>
                         <div className='clearfix'>
                           <span className='package-price pull-left text-primary'>
-                            Rs. 8000.00 Per Person
+                            Rs 8000
                           </span>
                           <Link
                             href='booking-details.html'
@@ -313,7 +313,7 @@ class Homepage extends Component {
                         </ul>
                         <div className='clearfix'>
                           <span className='package-price pull-left text-primary'>
-                            Rs. 8000.00 Per Person
+                            Rs 8000
                           </span>
                           <Link
                             href='booking-details.html'
