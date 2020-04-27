@@ -180,7 +180,7 @@ class Homepage extends Component {
                             7{' '}
                           </li>
                           <li>
-                            {' '}
+                            {'  '}
                             <span className='fa fa-user'></span> People: 23{' '}
                           </li>
                         </ul>
