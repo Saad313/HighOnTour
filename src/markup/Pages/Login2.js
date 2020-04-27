@@ -18,12 +18,12 @@ class Login2 extends Component {
                             <div class="col-lg-4 p-lr0">
                                 <div class="login-form">
                                     <div class="logo logo-header">
-                                    <Link to={'./'}><img src={require('./../../images/logo-2.png')} alt="" /></Link>
+                                    <Link to={'./'}><img src={require('./../../images/MainLogo.png')} alt="" /></Link>
                                     </div>
                                     <div id="login" class="tab-pane">
                                         <form class="dlab-form">
                                             <div class="form-head">
-                                                <h3 class="form-title m-t0">We Are <span class="text-primary">Triper</span></h3>
+                                                <h3 class="form-title m-t0">We Are <span class="text-primary">High On Tour</span></h3>
                                                 <p class="title-text">Welcome back, please login<br /> to your account</p>
                                             </div>
                                             <div class="form-group-bx">
