@@ -17,7 +17,7 @@ class Register2 extends Component {
                             <div class="col-lg-4 p-lr0">
                                 <div class="login-form">
                                     <div class="logo logo-header">
-                                        <Link to={'./'}><img src={require('./../../images/logo-2.png')} alt="" /></Link>
+                                        <Link to={'./'}><img src={require('./../../images/MainLogo.png')} alt="" /></Link>
                                     </div>
                                     <div id="register" class="tab-pane">
                                         <form class="dlab-form">

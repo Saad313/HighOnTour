@@ -58,7 +58,7 @@ class Header extends Component {
                             <div className="dlab-topbar-right top-login">
                                 <ul>
                                     <li><Link to={'/login'} className="site-button-link">Login</Link></li>
-                                    <li><Link to={'/register'} className="site-button-link">Sign Up</Link></li>
+                                    <li><Link to={'/register2'} className="site-button-link">Sign Up</Link></li>
                                 </ul>
                             </div>
                         </div>
