@@ -45,7 +45,7 @@ class Login2 extends Component {
                                             </div>
                                             <div class="form-group">
                                                 <button class="site-button black m-r10">login</button>
-                                                <Link to={'./register'} class="site-button outline">Sign Up</Link>
+                                                <Link to={'./register2'} class="site-button outline">Sign Up</Link>
                                             </div>
                                         </form>
                                     </div>

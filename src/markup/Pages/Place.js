@@ -51,13 +51,13 @@ class Place extends Component {
         >
           <div className='container'>
             <div className='dlab-bnr-inr-entry'>
-              <h1 className='text-white'>Place</h1>
+              <h1 className='text-white'>Destinations</h1>
               <div className='breadcrumb-row'>
                 <ul className='list-inline'>
                   <li>
                     <Link>Home</Link>
                   </li>
-                  <li>Place</li>
+                  <li>Destinations</li>
                 </ul>
               </div>
             </div>

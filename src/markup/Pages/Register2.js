@@ -45,7 +45,7 @@ class Register2 extends Component {
                                             </div>
                                             <div class="form-group">
                                                 <button class="site-button black m-r10">Submit</button>
-                                                <Link to={'./login'} class="site-button outline">Back</Link>
+                                                <Link to={'./login'} class="site-button outline">Login</Link>
                                             </div>
                                         </form>
                                     </div>

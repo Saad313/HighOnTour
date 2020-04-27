@@ -68,7 +68,7 @@ class Header extends Component {
                     </Link>
                   </li>
                   <li>
-                    <Link to={'/register'} className='site-button-link'>
+                    <Link to={'/register2'} className='site-button-link'>
                       Sign Up
                     </Link>
                   </li>
@@ -165,12 +165,12 @@ class Header extends Component {
                   </li>
                   <li>
                     <Link>
-                      Hotels <i className='fa fa-chevron-down'></i>
+                      Destinations <i className='fa fa-chevron-down'></i>
                     </Link>
                     <ul className='sub-menu'>
                       <li>
-                        <Link to={'hotel'} className='dez-page'>
-                          Hotel
+                        <Link to={'Place'} className='dez-page'>
+                        Destinations
                         </Link>
                       </li>
                       <li>
@@ -219,16 +219,16 @@ class Header extends Component {
                   </li>
                   <li>
                     <Link>
-                      Our Portfolio <i className='fa fa-chevron-down'></i>
+                      About Us <i className='fa fa-chevron-down'></i>
                     </Link>
                     <ul className='sub-menu'>
                       <li>
-                        <Link to={'portfolio2'} className='dez-page'>
-                          Portfolio Grid 2{' '}
+                        <Link to={'About'} className='dez-page'>
+                          History & Vision{' '}
                         </Link>
                       </li>
-                      {/*<li><Link to={'portfolio2'} className="dez-page">Portfolio Grid 3 </Link></li>
-												<li><Link to={'portfolio2'} className="dez-page">Portfolio Grid 4 </Link></li>*/}
+                      <li><Link to={'portfolio2'} className="dez-page">Team Players</Link></li>
+												{/* <li><Link to={'portfolio2'} className="dez-page">Portfolio Grid 4 </Link></li> */}
                     </ul>
                   </li>
                   <li>

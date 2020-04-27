@@ -19,13 +19,13 @@ class Contacts extends Component {
         >
           <div className='container'>
             <div className='dlab-bnr-inr-entry'>
-              <h1 className='text-white'>Blog Classic</h1>
+              <h1 className='text-white'>Contact Us!</h1>
               <div className='breadcrumb-row'>
                 <ul className='list-inline'>
                   <li>
                     <Link>Home</Link>
                   </li>
-                  <li>Blog Classic</li>
+                  <li>Contact Us</li>
                 </ul>
               </div>
             </div>
@@ -188,11 +188,11 @@ class Contacts extends Component {
               </div>
               <div className='col-lg-4 col-md-12 d-lg-flex m-b30'>
                 <GoogleMaps
-                  apiKey={'Your Google Api Key'}
+                  apiKey={'AIzaSyDetuhdtT_fkmx7gkMFtZFCxy628266Px8'}
                   style={{ height: '500px', width: '100%' }}
                   zoom={6}
-                  center={{ lat: 37.4224764, lng: -122.0842499 }}
-                  markers={{ lat: 37.4224764, lng: -122.0842499 }} //optional
+                  center={{ lat: 31.577316, lng: 74.356993 }}
+                  markers={{ lat: 31.577316, lng: 74.356993 }} //optional
                 />
               </div>
             </div>
