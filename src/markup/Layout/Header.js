@@ -170,7 +170,7 @@ class Header extends Component {
                     <ul className='sub-menu'>
                       <li>
                         <Link to={'Place'} className='dez-page'>
-                        Destinations
+                          Destinations
                         </Link>
                       </li>
                       <li>
@@ -180,7 +180,7 @@ class Header extends Component {
                       </li>
                     </ul>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link>
                       Blog <i className='fa fa-chevron-down'></i>
                     </Link>
@@ -216,20 +216,25 @@ class Header extends Component {
                         </Link>
                       </li>
                     </ul>
-                  </li>
+                  </li> */}
                   <li>
-                    <Link>
-                      About Us <i className='fa fa-chevron-down'></i>
+                    <Link to={'About'} className='dez-page'>
+                      About Us
+                      {/* <i className='fa fa-chevron-down'></i> */}
                     </Link>
-                    <ul className='sub-menu'>
+                    {/* <ul className='sub-menu'>
                       <li>
                         <Link to={'About'} className='dez-page'>
                           History & Vision{' '}
                         </Link>
-                      </li>
-                      <li><Link to={'portfolio2'} className="dez-page">Team Players</Link></li>
-												{/* <li><Link to={'portfolio2'} className="dez-page">Portfolio Grid 4 </Link></li> */}
-                    </ul>
+                      </li> */}
+                    {/* <li>
+                        <Link to={'portfolio2'} className='dez-page'>
+                          Team Players
+                        </Link>
+                      </li> */}
+                    {/* <li><Link to={'portfolio2'} className="dez-page">Portfolio Grid 4 </Link></li> */}
+                    {/* </ul> */}
                   </li>
                   <li>
                     <Link to={'contact'} className='dez-page'>
