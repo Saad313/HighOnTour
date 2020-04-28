@@ -33,7 +33,7 @@ class Header extends Component {
     return (
       <header className='site-header mo-left header'>
         <div className='top-bar bg-dark'>
-          <div className='container'>
+          {/* <div className='container'>
             <div className='row d-flex justify-content-between'>
               <div className='dlab-topbar-left'>
                 <ul>
@@ -75,7 +75,7 @@ class Header extends Component {
                 </ul>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
         <div className='sticky-header navbar-expand-lg'>
           <div className='main-bar clearfix onepage'>
@@ -218,6 +218,11 @@ class Header extends Component {
                     </ul>
                   </li> */}
                   <li>
+                    <Link to={'Products'} className='dez-page'>
+                      Products
+                    </Link>
+                  </li>
+                  <li>
                     <Link to={'About'} className='dez-page'>
                       About Us
                       {/* <i className='fa fa-chevron-down'></i> */}
@@ -239,6 +244,16 @@ class Header extends Component {
                   <li>
                     <Link to={'contact'} className='dez-page'>
                       Contact Us
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={'/login'} className='site-button-link'>
+                      Login
+                    </Link>
+                  </li>
+                  <li>
+                    <Link to={'/register2'} className='site-button-link'>
+                      Sign Up
                     </Link>
                   </li>
                 </ul>

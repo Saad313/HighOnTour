@@ -12,7 +12,7 @@ class Footer extends Component {
                         <div className="row">
                             <div className="col-lg-3 col-md-6 col-sm-5 footer-col-4">
                                 <div className="widget widget_getintuch">
-                                    <h6 className="m-b15 h6 text-uppercase">TRAVEL</h6>
+                                    <h6 className="m-b15 h6 text-uppercase">Contact Us</h6>
                                     <div className="dlab-separator bg-white"></div>
                                     <ul className="info-contact">
                                         <li>
@@ -23,13 +23,13 @@ class Footer extends Component {
 
                                         <li>
                                             <span>
-                                                <i className="fa fa-phone"></i> Mobile: +92 320 4015393 <br />+92 313 4853756
+                                                <i className="fa fa-phone"></i> +92 320 4015393 <br />+92 313 4853756
 									</span>
                                         </li>
 
                                         <li>
                                             <span>
-                                                <i className="fa fa-envelope-o"></i> Mail: highontour@gmail.com
+                                                <i className="fa fa-envelope-o"></i> highontour@gmail.com
 									</span>
                                         </li>
                                         {/* <li>
@@ -40,15 +40,17 @@ class Footer extends Component {
                                     </ul>
                                 </div>
                                 <ul className="list-inline">
-                                    <li><Link to={''} className="site-button facebook sharp"><i className="fa fa-facebook"></i></Link></li>
-                                    <li><Link to={''} className="site-button google-plus sharp"><i className="fa fa-google-plus"></i></Link></li>
+                                <li><a href={'https://www.facebook.com/highontour/'} className="site-button facebook sharp"><i className="fa fa-facebook"></i></a></li>
+                                <li><a href={'https://www.instagram.com/highontour/'}className="site-button linkedin sharp"><i className="fa fa-linkedin"></i></a></li>        
+                                    {/* <li><Link to={'https://www.facebook.com/highontour/'} className="site-button facebook sharp"><i className="fa fa-facebook"></i></Link></li> */}
+                                    {/* <li><Link to={''} className="site-button google-plus sharp"><i className="fa fa-google-plus"></i></Link></li>
                                     <li><Link to={''} className="site-button linkedin sharp"><i className="fa fa-linkedin"></i></Link></li>
-                                    <li><Link to={''} className="site-button twitter sharp"><i className="fa fa-twitter"></i></Link></li>
+                                    <li><Link to={''} className="site-button twitter sharp"><i className="fa fa-twitter"></i></Link></li> */}
                                 </ul>
                             </div>
-                            {/* <div className="col-lg-3 col-md-6 col-sm-7 footer-col-4">
+                            <div className="col-lg-3 col-md-6 col-sm-7 footer-col-4">
                                 <div className="widget  widget_tag_cloud">
-                                    <h6 className="m-b15 h6 text-uppercase">Tag</h6>
+                                    {/* <h6 className="m-b15 h6 text-uppercase">Tag</h6>
                                     <div className="dlab-separator bg-white"></div>
                                     <div className="tagcloud">
                                         <Link to={''}>Design</Link>
@@ -66,12 +68,12 @@ class Footer extends Component {
                                         <Link to={''}>Design</Link>
                                         <Link to={''}>User interface</Link>
                                         <Link to={''}>SEO</Link>
-                                    </div>
+                                    </div> */}
                                 </div>
-                            </div> */}
+                            </div>
                             <div className="col-lg-3 col-md-6 col-sm-6 footer-col-4">
                                 <div className="widget widget_getintuch">
-                                    <h6 className="m-b15 h6 text-uppercase">Contact us</h6>
+                                    <h6 className="m-b15 h6 text-uppercase">Your Message</h6>
                                     <div className="dlab-separator bg-white"></div>
                                     <div className="search-bx">
                                         <div className="dzFormMsg"></div>
