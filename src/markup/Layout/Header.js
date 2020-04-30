@@ -33,32 +33,31 @@ class Header extends Component {
     return (
       <header className='site-header mo-left header'>
         <div className='top-bar bg-dark'>
-          {/* <div className='container'>
+          { <div className='container'>
             <div className='row d-flex justify-content-between'>
               <div className='dlab-topbar-left'>
-                <ul>
+                {/* <ul>
                   <li>
-                    <Link to={'/hotel'} className='site-button-link'>
-                      {' '}
-                      Hotels{' '}
+                    <Link to={'hotel'} className='site-button-link'>
+                    
                     </Link>
                   </li>
                   <li>
-                    <Link className='site-button-link' to={'/place'}>
-                      Places
+                    <Link className='site-button-link' to={'place'}>
+                      
                     </Link>
                   </li>
                   <li>
-                    <Link className='site-button-link' to={'/packages'}>
-                      Packages
+                    <Link className='site-button-link' to={'packages'}>
+                      
                     </Link>
                   </li>
                   <li>
-                    <Link className='site-button-link' to={'/products'}>
-                      Products
+                    <Link className='site-button-link' to={'products'}>
+                      
                     </Link>
                   </li>
-                </ul>
+                </ul> */}
               </div>
               <div className='dlab-topbar-right top-login'>
                 <ul>
@@ -75,7 +74,7 @@ class Header extends Component {
                 </ul>
               </div>
             </div>
-          </div> */}
+          </div>}
         </div>
         <div className='sticky-header navbar-expand-lg'>
           <div className='main-bar clearfix onepage'>
@@ -113,7 +112,7 @@ class Header extends Component {
                                             <li><Link to={'index-2'} class="dez-page">Home 2 <span class="new-page menu-new">New</span></Link></li>
                                         </ul> */}
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to={''}>
                       {' '}
                       Pages <i className='fa fa-chevron-down'></i>
@@ -162,27 +161,21 @@ class Header extends Component {
                         </Link>
                       </li>
                     </ul>
+                  </li> */}
+                  
+                  <li>
+                    <Link to={'place'} className='dez-page'>
+                      Destinations
+                    </Link>
                   </li>
                   <li>
-                    <Link>
-                      Destinations <i className='fa fa-chevron-down'></i>
+                    <Link to={'blogclassic'} className='dez-page'>
+                    Experiences
                     </Link>
-                    <ul className='sub-menu'>
-                      <li>
-                        <Link to={'Place'} className='dez-page'>
-                          Destinations
-                        </Link>
-                      </li>
-                      <li>
-                        <Link to={'hotelbooking'} className='dez-page'>
-                          Hotel Booking
-                        </Link>
-                      </li>
-                    </ul>
-                  </li>
+                  </li>    
                   {/* <li>
                     <Link>
-                      Blog <i className='fa fa-chevron-down'></i>
+                    Experiences <i className='fa fa-chevron-down'></i>
                     </Link>
                     <ul className='sub-menu'>
                       <li>
@@ -246,7 +239,7 @@ class Header extends Component {
                       Contact Us
                     </Link>
                   </li>
-                  <li>
+                  {/* <li>
                     <Link to={'/login'} className='site-button-link'>
                       Login
                     </Link>
@@ -255,7 +248,7 @@ class Header extends Component {
                     <Link to={'/register2'} className='site-button-link'>
                       Sign Up
                     </Link>
-                  </li>
+                  </li> */}
                 </ul>
               </div>
             </div>

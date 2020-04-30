@@ -97,7 +97,7 @@ class Homepage2 extends Component {
                           distracted by the readable content.
                         </p>
                         <Link
-                          to={'packages'}
+                          to={'place'}
                           className='site-button outline white'
                         >
                           View All Tours
@@ -125,7 +125,7 @@ class Homepage2 extends Component {
                           distracted by the readable content.
                         </p>
                         <Link
-                          to={'packages'}
+                          to={'place'}
                           className='site-button outline white'
                         >
                           View All Tours
@@ -146,14 +146,14 @@ class Homepage2 extends Component {
                     <div className='featured-content text-white'>
                       <div>
                         <h2 className='title'>
-                          <Link to={'packages'}>Friendly Santorini</Link>
+                          <Link to={'place'}>Friendly Santorini</Link>
                         </h2>
                         <p>
                           It is a long established fact that a reader will be
                           distracted by the readable content.
                         </p>
                         <Link
-                          to={'packages'}
+                          to={'place'}
                           className='site-button outline white'
                         >
                           View All Tours
@@ -174,7 +174,7 @@ class Homepage2 extends Component {
                     <div className='featured-content text-white'>
                       <div>
                         <h2 className='title'>
-                          <Link to={'packages'}>Australia</Link>
+                          <Link to={'place'}>Australia</Link>
                         </h2>
                         <p>
                           It is a long established fact that a reader will be
@@ -202,14 +202,14 @@ class Homepage2 extends Component {
                     <div className='featured-content text-white'>
                       <div>
                         <h2 className='title'>
-                          <Link to={'packages'}>South America </Link>
+                          <Link to={'place'}>South America </Link>
                         </h2>
                         <p>
                           It is a long established fact that a reader will be
                           distracted by the readable content.
                         </p>
                         <Link
-                          to={'packages'}
+                          to={'place'}
                           className='site-button outline white'
                         >
                           View All Tours

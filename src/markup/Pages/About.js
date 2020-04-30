@@ -31,8 +31,8 @@ const aboutBlog = [
   },
 ];
 
-var bg1 = require('./../../images/background/bg1.jpg');
-var bg3 = require('./../../images/banner/bnr1.jpg');
+var bg1 = require('./../../images/AboutUs/AboutUs.jpg');
+var bg3 = require('./../../images/AboutUs/AboutUs.jpg');
 
 function SampleNextArrow(props) {
   const { onClick } = props;
@@ -103,35 +103,34 @@ class About extends Component {
               <div className='row align-items-start m-b20'>
                 <div className='col-md-12 col-lg-6'>
                   <h2>
-                    Hello. Our agency has been present for over 20 years. We
-                    make the best for all our customers.
+                  Book your tours today with High On Tour because we make the best for all our customers.
                   </h2>
                 </div>
                 <div className='col-md-6 col-lg-3'>
                   <p>
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy text ever since the 1500s, when an unknown.
+                  HighOnTour with the motto of "Wander. Explore. Discover." aims to provide the 
+                  customer with best suitable package whether the customer wants to customize 
+                  a group tour or wants to go with an event tour
                   </p>
                 </div>
                 <div className='col-md-6 col-lg-3'>
                   <p>
-                    It is a long established fact that a reader will be
-                    distracted by the readable content of a page when looking at
-                    its layout. The point of using Lorem Ipsum is.
+                  also allowing the customer to do an online purchase of things that are very famous 
+                  but not easily available in areas like Lahore, for example Shawls of Naran, honey 
+                  from Murree etc.
                   </p>
                 </div>
               </div>
               <div className='row'>
                 <div className='col-lg-6 col-md-6 col-sm-6 m-b30 col-12'>
                   <img
-                    src={require('./../../images/blog/default/thum2.jpg')}
+                    src={require('./../../images/1a.jpg')}
                     alt=''
                   />
                 </div>
                 <div className='col-lg-6 col-md-6 col-sm-6 m-b30 col-12'>
                   <img
-                    src={require('./../../images/blog/default/thum3.jpg')}
+                    src={require('./../../images/1b.jpg')}
                     alt=''
                   />
                 </div>
@@ -141,34 +140,34 @@ class About extends Component {
                   <div className='counter-style-1'>
                     <div className=''>
                       <i className='icon ti-bar-chart text-primary'></i>
-                      <span className='counter'>7652</span>
+                      <span className='counter'>4</span>
                     </div>
-                    <span className='counter-text'>Completed Projects</span>
+                    <span className='counter-text'>Successful Tours</span>
                   </div>
                 </div>
                 <div className='col-lg-3 col-md-6 col-12 col-sm-6 m-b30'>
                   <div className='counter-style-1'>
                     <div className=''>
                       <i className='icon ti-user text-primary'></i>
-                      <span className='counter'>4562</span>
+                      <span className='counter'>450+</span>
                     </div>
-                    <span className='counter-text'>Happy Clients</span>
+                    <span className='counter-text'>Happy Travellers</span>
                   </div>
                 </div>
                 <div className='col-lg-3 col-md-6 col-12 col-sm-6 m-b30'>
                   <div className='counter-style-1'>
                     <div className=''>
                       <i className='icon ti-headphone-alt text-primary'></i>
-                      <span className='counter'>3569</span>
+                      <span className='counter'>30</span>
                     </div>
-                    <span className='counter-text'>Questions Answered</span>
+                    <span className='counter-text'>Video Projects</span>
                   </div>
                 </div>
                 <div className='col-lg-3 col-md-6 col-12 col-sm-6 m-b30'>
                   <div className='counter-style-1'>
                     <div className=''>
                       <i className='icon ti-cup text-primary'></i>
-                      <span className='counter'>2089</span>
+                      <span className='counter'>8</span>
                     </div>
                     <span className='counter-text'>Awards's</span>
                   </div>
@@ -209,12 +208,12 @@ class About extends Component {
           <div className='content-inner-2 overlay-white-middle'>
             <div className='container'>
               <div className='section-head text-black text-center'>
-                <h2 className='text-uppercase m-b0'>Our Latest Blog</h2>
-                <p>
+                <h2 className='text-uppercase m-b0'>Recent Tours with us</h2>
+                {/* <p>
                   Lorem Ipsum is simply dummy text of the printing and
                   typesetting industry. Lorem Ipsum has been the industry's
                   standard dummy.
-                </p>
+                </p> */}
               </div>
               <Slider
                 className='blog-carousel nav-btn-center-lr btn-1'

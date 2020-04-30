@@ -5,33 +5,33 @@ import Footer from './../Layout/Footer';
 
 const placeList = [
   {
-    image: require('./../../images/tour/pic1.jpg'),
-    title: 'Mathura Kusum Sarovar',
+    image: require('./../../images/tour/Abbottabad.jpg'),
+    title: 'Abbottabad',
+    address: 'Northern Pakistan',
+  },
+  {
+    image: require('./../../images/tour/Deosaitracks.jpg'),
+    title: 'Deosai Tracks',
     address: '441 Dickerson Pike Nashville, TN 37207',
   },
   {
-    image: require('./../../images/tour/pic2.jpg'),
-    title: 'Buguon Beach',
+    image: require('./../../images/tour/AttabadLake.jpg'),
+    title: 'Attabad Lake',
     address: '441 Dickerson Pike Nashville, TN 37207',
   },
   {
-    image: require('./../../images/tour/pic3.jpg'),
-    title: 'Buguon Beach',
+    image: require('./../../images/tour/FairyMeadows.jpg'),
+    title: 'Fairy Meadows',
     address: '441 Dickerson Pike Nashville, TN 37207',
   },
   {
-    image: require('./../../images/tour/pic4.jpg'),
-    title: 'Buguon Beach',
+    image: require('./../../images/tour/MalumJuba.jpg'),
+    title: 'Malum Juba',
     address: '441 Dickerson Pike Nashville, TN 37207',
   },
   {
-    image: require('./../../images/tour/pic5.jpg'),
-    title: 'Taj Mahal',
-    address: '441 Dickerson Pike Nashville, TN 37207',
-  },
-  {
-    image: require('./../../images/tour/pic6.jpg'),
-    title: 'Buguon Beach',
+    image: require('./../../images/tour/Miranjani.jpg'),
+    title: 'Miranjani',
     address: '441 Dickerson Pike Nashville, TN 37207',
   },
 ];
@@ -128,18 +128,16 @@ class Place extends Component {
                 </div>
                 <div className='widget'>
                   <h5 className='font-weight-400 widget-title'>
-                    Popular Attractions in Pattaya
+                    SERVICES WE PROVIDE:
                   </h5>
                   <ul className='list-check black'>
-                    <li>Baia dos Porcos</li>
-                    <li>Baia do Sueste</li>
-                    <li>Cacimba do Padre Beach</li>
-                    <li>Atalaia Beach</li>
-                    <li>Baia do Sueste Beach</li>
-                    <li>Leao Beach</li>
-                    <li>Conceicao Beach</li>
-                    <li>Forte Sao Pedro do Boldro</li>
-                    <li>Projeto Tamar</li>
+                    <li>TRANSPORT</li>
+                    <li>HOTELLING</li>
+                    <li>MEALS</li>
+                    <li>BONFIRE</li>
+                    <li>BBQ</li>
+                    <li>PHOTOGRAPY</li>
+                    <li>VIDEO MEMORY</li>
                   </ul>
                 </div>
 
@@ -147,13 +145,12 @@ class Place extends Component {
                                 <img src={require('./../../images/add.jpg')} alt="" />
                             </div> */}
                 <div className='widget'>
-                  <h5 className='font-weight-400 widget-title'>FAQ's</h5>
+                  <h5 className='font-weight-400 widget-title'>PACKAGES</h5>
                   <ul className='list-check black'>
-                    <li>Baia dos Porcos</li>
-                    <li>Baia do Sueste</li>
-                    <li>Cacimba do Padre Beach</li>
-                    <li>Atalaia Beach</li>
-                    <li>Baia do Sueste Beach</li>
+                    <li>BASIC</li>
+                    <li>GOLD</li>
+                    <li>DELUXE</li>
+                    <li>PREMIUM</li>
                   </ul>
                 </div>
               </div>
@@ -178,7 +175,7 @@ class Place extends Component {
                 </div>
                 <div className='row'>
                   <div className='col-md-12 col-sm-12 m-b15'>
-                    <h3 className='m-b5'>Places in :</h3>
+                    <h3 className='m-b5'>Destinations</h3>
                     <div className='dlab-separator bg-primary'></div>
                   </div>
 

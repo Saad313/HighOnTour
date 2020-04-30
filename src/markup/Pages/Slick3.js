@@ -15,6 +15,10 @@ const destination = [
         image: require('./../../images/background/bg3.jpg'),
         title: 'Australia '
     },
+    {
+        image: require('./../../images/background/bg4.jpg'),
+        title: 'Australia '
+    },
 ]
 
 

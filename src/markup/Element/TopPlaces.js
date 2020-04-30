@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const places = [
   {
     price: 1200,
-    image: require('./../../images/our-work/pic1.jpg'),
+    image: require('./../../images/Topplaces/Abbottabad.jpg'),
     title: 'Naran',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
@@ -12,7 +12,7 @@ const places = [
   },
   {
     price: 1200,
-    image: require('./../../images/our-work/pic2.jpg'),
+    image: require('./../../images/Topplaces/mushkpuritop.jpg'),
     title: 'Kaghan',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
@@ -20,7 +20,7 @@ const places = [
   },
   {
     price: 1200,
-    image: require('./../../images/our-work/pic3.jpg'),
+    image: require('./../../images/Topplaces/FairyMeadows.jpg'),
     title: 'Fairy Meadows',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
@@ -28,7 +28,7 @@ const places = [
   },
   {
     price: 1200,
-    image: require('./../../images/our-work/pic4.jpg'),
+    image: require('./../../images/Topplaces/mushkpuritop.jpg'),
     title: 'Gilgit',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
@@ -36,7 +36,7 @@ const places = [
   },
   {
     price: 1200,
-    image: require('./../../images/our-work/pic5.jpg'),
+    image: require('./../../images/Topplaces/Naran.jpg'),
     title: 'Sawat',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
@@ -44,7 +44,7 @@ const places = [
   },
   {
     price: 1200,
-    image: require('./../../images/our-work/pic6.jpg'),
+    image: require('./../../images/Topplaces/MalumJuba.jpg'),
     title: 'Kalam',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',

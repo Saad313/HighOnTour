@@ -9,24 +9,30 @@ import Footer from './../Layout/Footer';
 
 const content = [
   {
-    title: 'Vulputate Mollis Ultricies Fermentum Parturient',
-    button: 'Read More',
+    title: 'Customize Your Trip To Hunza & Naltar Valley',
+    button: 'Discover ',
     image: require('./../../images/main-slider/slide1.jpg'),
   },
   {
-    title: 'Tortor Dapibus Commodo Aenean Quam',
+    title: '5 Days Trip To Hunza & Naltar Valley',
     button: 'Discover',
     image: require('./../../images/main-slider/slide2.jpg'),
   },
   {
-    title: 'Tortor Dapibus Commodo Aenean Quam',
+    title: 'Customize Your Trip To Kashmir',
     button: 'Discover',
     image: require('./../../images/main-slider/slide3.jpg'),
+  },
+  {
+    title: 'Customize Your Trip To Naran Kaghan Valley',
+    button: 'Discover',
+    image: require('./../../images/main-slider/slide4.jpg'),
   },
 ];
 
 var bg1 = require('./../../images/background/bg1.jpg');
 var bg3 = require('./../../images/background/bg3.jpg');
+var bg4 = require('./../../images/background/pro.jpg');
 
 class Homepage extends Component {
   render() {
@@ -121,7 +127,7 @@ class Homepage extends Component {
           <div
             className='section-full bg-white content-inner-2 bgeffect overlay-black-middle'
             style={{
-              backgroundImage: 'url(' + bg3 + ')',
+              backgroundImage: 'url(' + bg4 + ')',
               backgroundSize: 'cover',
             }}
           >

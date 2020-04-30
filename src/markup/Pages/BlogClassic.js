@@ -5,41 +5,41 @@ import Footer from './../Layout/Footer';
 
 const classicBlog = [
   {
-    image: require('./../../images/blog/default/thum1.jpg'),
+    image: require('./../../images/AboutUs/TourDeFairyMeadows.jpg'),
     date: 'September 10, 2017',
     author: 'Demongo',
     comment: '5k',
-    title: 'WADA to investigate fresh Russian Olympic doping claims',
+    title: 'Tour to fairy meadows',
     desc:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model.',
   },
   {
-    image: require('./../../images/blog/default/thum2.jpg'),
+    image: require('./../../images/AboutUs/TourDe Miranjani.jpg'),
     date: 'September 10, 2017',
     author: 'Demongo',
     comment: '5k',
-    title: 'WADA to investigate fresh Russian Olympic doping claims',
+    title: 'Tour to Miranjani',
     desc:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model.',
   },
   {
-    image: require('./../../images/blog/default/thum3.jpg'),
+    image: require('./../../images/AboutUs/TourDeNaran.JPG'),
     date: 'September 10, 2017',
     author: 'Demongo',
     comment: '5k',
-    title: 'WADA to investigate fresh Russian Olympic doping claims',
+    title: 'Tour to Naran kaghan',
     desc:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model.',
   },
-  {
-    image: require('./../../images/blog/default/thum4.jpg'),
-    date: 'September 10, 2017',
-    author: 'Demongo',
-    comment: '5k',
-    title: 'WADA to investigate fresh Russian Olympic doping claims',
-    desc:
-      'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model.',
-  },
+  // {
+  //   image: require('./../../images/blog/default/thum4.jpg'),
+  //   date: 'September 10, 2017',
+  //   author: 'Demongo',
+  //   comment: '5k',
+  //   title: 'WADA to investigate fresh Russian Olympic doping claims',
+  //   desc:
+  //     'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model.',
+  // },
 ];
 
 var bg3 = require('./../../images/banner/bnr1.jpg');
@@ -58,13 +58,13 @@ class BlogClassic extends Component {
         >
           <div className='container'>
             <div className='dlab-bnr-inr-entry'>
-              <h1 className='text-white'>Blog Classic</h1>
+              <h1 className='text-white'>Experiences</h1>
               <div className='breadcrumb-row'>
                 <ul className='list-inline'>
                   <li>
                     <Link>Home</Link>
                   </li>
-                  <li>Blog Classic</li>
+                  <li>Experiences</li>
                 </ul>
               </div>
             </div>

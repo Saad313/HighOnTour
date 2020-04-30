@@ -69,7 +69,7 @@ class Slick extends Component {
               </div>
               <div className='align-self-center'>
                 <Link
-                  to={'/packages'}
+                  to={'/place'}
                   className='site-button button-md pull-right m-t5'
                 >
                   View All
