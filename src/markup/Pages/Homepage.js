@@ -31,7 +31,7 @@ const content = [
 ];
 
 var bg1 = require('./../../images/background/bg1.jpg');
-var bg3 = require('./../../images/background/bg3.jpg');
+// var bg3 = require('./../../images/background/bg3.jpg');
 var bg4 = require('./../../images/background/pro.jpg');
 
 class Homepage extends Component {

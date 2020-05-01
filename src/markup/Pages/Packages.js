@@ -5,68 +5,66 @@ import Footer from './../Layout/Footer';
 
 const packageContent = [
   {
-    image: require('./../../images/gallery/img4.jpg'),
-    title: 'Weekdays in Thailand',
-    subtitle: 'Peelamedu, Cbe, India',
-    days: 2,
-    people: 1,
-    price: 300,
-  },
-  {
     image: require('./../../images/gallery/img5.jpg'),
-    title: 'Weekdays in Thailand',
-    subtitle: 'Peelamedu, Cbe, India',
-    days: 2,
-    people: 1,
-    price: 300,
+    title: 'Weekdays in Sakardu',
+    subtitle: 'Khyber Pakhtunkhwa, Pakistan',
+    days: 7,
+    people: 20,
+    price: '18,500',
+    link: '/Skardu',
   },
-  {
-    image: require('./../../images/gallery/img6.jpg'),
-    title: 'Weekdays in Thailand',
-    subtitle: 'Peelamedu, Cbe, India',
-    days: 2,
-    people: 1,
-    price: 300,
-  },
+  // {
+  //   image: require('./../../images/gallery/img6.jpg'),
+  //   title: 'Weekdays in Kashmir',
+  //   subtitle: 'Azad Kashmir, Pakistan',
+  //   days: 7,
+  //   people: 20,
+  //   price: 3000,
+  // },
   {
     image: require('./../../images/gallery/img7.jpg'),
-    title: 'Weekdays in Thailand',
-    subtitle: 'Peelamedu, Cbe, India',
-    days: 2,
-    people: 1,
-    price: 300,
+    title: 'Weekdays in Fairy Meadows',
+    subtitle: 'North, Pakistan',
+    days: 7,
+    people: 20,
+    price: '15,500',
+    link: '/FairyMeadows',
   },
   {
     image: require('./../../images/gallery/img8.jpg'),
-    title: 'Weekdays in Thailand',
-    subtitle: 'Peelamedu, Cbe, India',
-    days: 2,
-    people: 1,
-    price: 300,
+    title: '5 Days in Hunza',
+    subtitle: 'North, Pakistan',
+    days: 5,
+    people: 20,
+    price: '16,500',
+    link: '/Hunza',
   },
   {
     image: require('./../../images/gallery/img9.jpg'),
-    title: 'Weekdays in Thailand',
-    subtitle: 'Peelamedu, Cbe, India',
-    days: 2,
-    people: 1,
-    price: 300,
+    title: '3 Days in Sawat Kalam & Malam Juba',
+    subtitle: 'North, Pakistan',
+    days: 3,
+    people: 20,
+    price: '8,500',
+    link: '/MalamJabba',
   },
   {
     image: require('./../../images/gallery/img2.jpg'),
-    title: 'Weekdays in Thailand',
-    subtitle: 'Peelamedu, Cbe, India',
+    title: '2 Days in Thandiani and Miranjani',
+    subtitle: 'North, Pakistan',
     days: 2,
-    people: 1,
-    price: 300,
+    people: 20,
+    price: '5,500.00',
+    link: '/Thandiani',
   },
   {
     image: require('./../../images/gallery/img3.jpg'),
-    title: 'Weekdays in Thailand',
-    subtitle: 'Peelamedu, Cbe, India',
-    days: 2,
-    people: 1,
-    price: 300,
+    title: '1 Day in Muskpuri Top',
+    subtitle: 'North, Pakistan',
+    days: 7,
+    people: 20,
+    price: '3,000.00',
+    link: '/MushkpuriTop',
   },
 ];
 
@@ -127,10 +125,10 @@ class Packages extends Component {
                         </ul>
                         <div className='clearfix'>
                           <span className='package-price pull-left text-primary'>
-                            ${item.price}
+                            Rs.{item.price}
                           </span>
                           <Link
-                            to={'/booking'}
+                            to={item.link}
                             className='site-button pull-right'
                           >
                             View details

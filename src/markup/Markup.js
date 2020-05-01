@@ -6,7 +6,14 @@ import Homepage from './Pages/Homepage';
 // import Homepage2 from './Pages/Homepage2';
 import About from './Pages/About';
 import Hotel from './Pages/Hotel';
-import BookingDetails from './Pages/BookingDetails';
+import BookingDetailsFairyMeadows from './Pages/BookingDetailsFairyMeadows';
+import BookingDetailsSkardu from './Pages/BookingDetailsSakardu';
+import BookingDetailsHunza from './Pages/BookingDetailsHunza';
+import BookingDetailsMalamJabba from './Pages/BookingDetailsMalamJabba';
+
+import BookingDetailsThandiani from './Pages/BookingDetailsThandiani';
+import BookingDetailsMushkpuriTop from './Pages/BookingDetailsMushkpuri';
+
 import Place from './Pages/Place';
 import Packages from './Pages/Packages';
 import Error404 from './Pages/Error';
@@ -38,7 +45,28 @@ class Markup extends Component {
             {/* <Route path='/index-2' exact component={Homepage2} /> */}
             <Route path='/about' exact component={About} />
             <Route path='/hotel' exact component={Hotel} />
-            <Route path='/booking' exact component={BookingDetails} />
+            <Route
+              path='/FairyMeadows'
+              exact
+              component={BookingDetailsFairyMeadows}
+            />
+            <Route path='/Skardu' exact component={BookingDetailsSkardu} />
+            <Route path='/Hunza' exact component={BookingDetailsHunza} />
+            <Route
+              path='/MalamJabba'
+              exact
+              component={BookingDetailsMalamJabba}
+            />
+            <Route
+              path='/Thandiani'
+              exact
+              component={BookingDetailsThandiani}
+            />
+            <Route
+              path='/MushkpuriTop'
+              exact
+              component={BookingDetailsMushkpuriTop}
+            />
             <Route path='/place' exact component={Place} />
             <Route path='/packages' exact component={Packages} />
             <Route path='/error' exact component={Error404} />
