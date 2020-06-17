@@ -9,7 +9,6 @@ import './plugins/slick/slick-theme.min.css';
 import Markup from './markup/Markup';
 
 
-
 function App() {
   return (
     <div className="App">
