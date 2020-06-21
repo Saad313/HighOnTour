@@ -31,15 +31,6 @@ const classicBlog = [
     desc:
       'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model.',
   },
-  // {
-  //   image: require('./../../images/blog/default/thum4.jpg'),
-  //   date: 'September 10, 2017',
-  //   author: 'Demongo',
-  //   comment: '5k',
-  //   title: 'WADA to investigate fresh Russian Olympic doping claims',
-  //   desc:
-  //     'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout. The point of using Lorem Ipsum is that it has a more-or-less normal distribution of letters, as opposed to using, making it look like readable English. Many desktop publishing packages and web page editors now use Lorem Ipsum as their default model.',
-  // },
 ];
 
 var bg3 = require('./../../images/banner/bnr1.jpg');
@@ -98,16 +89,6 @@ class BlogClassic extends Component {
                   </div>
                   <div className='dlab-post-text'>
                     <p>{item.desc}</p>
-                  </div>
-                  <div className='dlab-post-readmore blog-share'>
-                    <Link
-                      to={'./blogdetails'}
-                      title='READ MORE'
-                      rel='bookmark'
-                      className='site-button-link border-link black'
-                    >
-                      READ MORE
-                    </Link>
                   </div>
                 </div>
               </div>

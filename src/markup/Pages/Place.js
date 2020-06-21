@@ -197,13 +197,13 @@ class Place extends Component {
                           </h4>
                           <p className='m-b10'>{item.address}</p>
                           <Link
-                            to={'./booking'}
+                            to={'./place'}
                             className='site-button outline radius-xl m-lr5'
                           >
                             View Details
                           </Link>
                           <Link
-                            to={'./booking'}
+                            to={'./place'}
                             className='site-button outline radius-xl m-lr5'
                           >
                             View Map

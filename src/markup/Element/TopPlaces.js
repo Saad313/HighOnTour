@@ -5,18 +5,18 @@ const places = [
   {
     price: 1200,
     image: require('./../../images/Topplaces/Abbottabad.jpg'),
-    title: 'Naran',
+    title: 'Thandiani',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
-    link: 'booking',
+    link: 'Thandiani',
   },
   {
     price: 1200,
     image: require('./../../images/Topplaces/mushkpuritop.jpg'),
-    title: 'Kaghan',
+    title: 'MushkpuriTop',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
-    link: 'booking',
+    link: 'MushkpuriTop',
   },
   {
     price: 1200,
@@ -24,31 +24,31 @@ const places = [
     title: 'Fairy Meadows',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
-    link: 'booking',
+    link: 'FairyMeadows',
   },
   {
     price: 1200,
     image: require('./../../images/Topplaces/mushkpuritop.jpg'),
-    title: 'Gilgit',
+    title: 'Hunza',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
-    link: 'booking',
-  },
-  {
-    price: 1200,
-    image: require('./../../images/Topplaces/Naran.jpg'),
-    title: 'Sawat',
-    description:
-      'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
-    link: 'booking',
+    link: 'Hunza',
   },
   {
     price: 1200,
     image: require('./../../images/Topplaces/MalumJuba.jpg'),
-    title: 'Kalam',
+    title: 'MalamJabba',
     description:
       'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
-    link: 'booking',
+    link: 'MalamJabba',
+  },
+  {
+    price: 1200,
+    image: require('./../../images/Topplaces/MalumJuba.jpg'),
+    title: 'Skardu',
+    description:
+      'We invite you to experience here with your family, definitely you are filled with lasting memories and feel awesome.',
+    link: 'Skardu',
   },
 ];
 
@@ -91,7 +91,7 @@ class TopPlaces extends Component {
               >
                 <div className='dlab-box'>
                   <div className='dlab-media'>
-                    <Link to={'./booking'}>
+                    <Link to={'./' + item.link + ''}>
                       <img src={item.image} alt='' />
                     </Link>
                     <div className='tr-price'>
@@ -100,12 +100,15 @@ class TopPlaces extends Component {
                   </div>
                   <div className='dlab-info p-a20 border-1 text-center'>
                     <h4 className='dlab-title m-t0'>
-                      <Link to={'./booking'}>{item.title}</Link>
+                      <Link to={'./' + item.link + ''}>{item.title}</Link>
                     </h4>
                     <p>{item.description}</p>
 
                     <div className='tr-btn-info'>
-                      <Link to={'./booking'} className='site-button radius-no'>
+                      <Link
+                        to={'./' + item.link + ''}
+                        className='site-button radius-no'
+                      >
                         <i
                           className='fa fa-location-arrow'
                           aria-hidden='true'
@@ -113,7 +116,7 @@ class TopPlaces extends Component {
                         Lets Go
                       </Link>
                       <Link
-                        to={'./booking'}
+                        to={'./' + item.link + ''}
                         className='site-button bg-primary-dark radius-no'
                       >
                         <i className='fa fa-info-circle' aria-hidden='true'></i>{' '}

@@ -36,38 +36,6 @@ const packageContent = [
     // people: 1,
     price: 300,
   },
-  // {
-  //   image: require('./../../images/gallery/img8.jpg'),
-  //   title: 'Weekdays in Thailand',
-  //   subtitle: 'Peelamedu, Cbe, India',
-  //   days: 2,
-  //   people: 1,
-  //   price: 300,
-  // },
-  // {
-  //   image: require('./../../images/gallery/img9.jpg'),
-  //   title: 'Weekdays in Thailand',
-  //   subtitle: 'Peelamedu, Cbe, India',
-  //   days: 2,
-  //   people: 1,
-  //   price: 300,
-  // },
-  // {
-  //   image: require('./../../images/gallery/img2.jpg'),
-  //   title: 'Weekdays in Thailand',
-  //   subtitle: 'Peelamedu, Cbe, India',
-  //   days: 2,
-  //   people: 1,
-  //   price: 300,
-  // },
-  // {
-  //   image: require('./../../images/gallery/img3.jpg'),
-  //   title: 'Weekdays in Thailand',
-  //   subtitle: 'Peelamedu, Cbe, India',
-  //   days: 2,
-  //   people: 1,
-  //   price: 300,
-  // },
 ];
 
 var bg3 = require('./../../images/banner/bnr1.jpg');
@@ -126,15 +94,9 @@ class Products extends Component {
                           </li>
                         </ul>
                         <div className='clearfix'>
-                          <span className='package-price pull-left text-primary'>
+                          <span className='package-price pull-center text-primary'>
                             ${item.price}
                           </span>
-                          <Link
-                            to={'/booking'}
-                            className='site-button pull-right'
-                          >
-                            View details
-                          </Link>
                         </div>
                       </div>
                     </div>

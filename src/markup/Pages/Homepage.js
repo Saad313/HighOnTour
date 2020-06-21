@@ -167,7 +167,7 @@ class Homepage extends Component {
                 <div className='col-lg-6 col-xl-3 col-sm-6 col-md-6 m-b30'>
                   <div className='dlab-box'>
                     <div className='dlab-media'>
-                      <Link>
+                      <Link to={'./MalamJabba'}>
                         <img
                           src={require('./../../images/gallery/img4.jpg')}
                           alt=''
@@ -176,7 +176,7 @@ class Homepage extends Component {
                     </div>
                     <div className='dlab-info p-a15 border-1'>
                       <h4 className='dlab-title m-t0'>
-                        <Link href='packages.html'>Weekdays in Kalam</Link>
+                        <Link to={'./MalamJabba'}>Weekdays in MalamJabba</Link>
                       </h4>
                       <span className='location'>Swat, Khyber Pakhtunkhwa</span>
                       <div className='package-content'>
@@ -195,7 +195,7 @@ class Homepage extends Component {
                             Rs 8000
                           </span>
                           <Link
-                            href='booking-details.html'
+                            to={'./MalamJabba'}
                             className='site-button pull-right'
                           >
                             View details
@@ -212,12 +212,15 @@ class Homepage extends Component {
                         <img
                           src={require('./../../images/gallery/img3.jpg')}
                           alt=''
+                          to={'./FairyMeadows'}
                         />
                       </Link>
                     </div>
                     <div className='dlab-info p-a15 border-1'>
                       <h4 className='dlab-title m-t0'>
-                        <Link href='packages.html'>Weekdays in Naran</Link>
+                        <Link to={'./FairyMeadows'}>
+                          Weekdays in Fairy Meadows
+                        </Link>
                       </h4>
                       <span className='location'>
                         Khyber Pakhtunkhwa, Pakistan
@@ -238,7 +241,7 @@ class Homepage extends Component {
                             Rs 8000
                           </span>
                           <Link
-                            href='booking-details.html'
+                            to={'./FairyMeadows'}
                             className='site-button pull-right'
                           >
                             View details
@@ -255,12 +258,13 @@ class Homepage extends Component {
                         <img
                           src={require('./../../images/gallery/img5.jpg')}
                           alt=''
+                          to={'./Hunza'}
                         />
                       </Link>
                     </div>
                     <div className='dlab-info p-a15 border-1'>
                       <h4 className='dlab-title m-t0'>
-                        <Link href='packages.html'>Weekdays in Kashmir</Link>
+                        <Link to={'./Hunza'}>Weekdays in Hunza</Link>
                       </h4>
                       <span className='location'>Azad Kashmir, Pakistan</span>
                       <div className='package-content'>
@@ -279,7 +283,7 @@ class Homepage extends Component {
                             Rs 8000
                           </span>
                           <Link
-                            href='booking-details.html'
+                            to={'./Hunza'}
                             className='site-button pull-right'
                           >
                             View details
@@ -296,14 +300,13 @@ class Homepage extends Component {
                         <img
                           src={require('./../../images/gallery/img6.jpg')}
                           alt=''
+                          to={'./Thandiani'}
                         />
                       </Link>
                     </div>
                     <div className='dlab-info p-a15 border-1'>
                       <h4 className='dlab-title m-t0'>
-                        <Link href='packages.html'>
-                          Weekdays in Fairy Meadows
-                        </Link>
+                        <Link to={'./Thandiani'}>Weekdays in Thandiani</Link>
                       </h4>
                       <span className='location'>Pakistan</span>
                       <div className='package-content'>
@@ -322,7 +325,7 @@ class Homepage extends Component {
                             Rs 8000
                           </span>
                           <Link
-                            href='booking-details.html'
+                            to={'./Thandiani'}
                             className='site-button pull-right'
                           >
                             View details

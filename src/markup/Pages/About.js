@@ -6,28 +6,28 @@ import Footer from './../Layout/Footer';
 
 const aboutBlog = [
   {
-    image: require('./../../images/blog/grid/pic1.jpg'),
+    image: require('./../../images/AboutUs/TourDe Miranjani.jpg'),
     date: 'September 10, 2017',
     comment: '5k',
-    title: 'WADA to investigate fresh Russian Olympic doping claims',
+    title: 'Tour De Miranjani',
   },
   {
-    image: require('./../../images/blog/grid/pic2.jpg'),
+    image: require('./../../images/AboutUs/TourDeFairyMeadows.jpg'),
     date: 'September 10, 2017',
     comment: '5k',
-    title: 'WADA to investigate fresh Russian Olympic doping claims',
+    title: 'Tour De Fairy Meadows',
   },
   {
-    image: require('./../../images/blog/grid/pic3.jpg'),
+    image: require('./../../images/Topplaces/mushkpuritop.jpg'),
     date: 'September 10, 2017',
     comment: '5k',
-    title: 'WADA to investigate fresh Russian Olympic doping claims',
+    title: 'Tour De Mushkpuritop',
   },
   {
-    image: require('./../../images/blog/grid/pic4.jpg'),
+    image: require('./../../images/Topplaces/MalumJuba.jpg'),
     date: 'September 10, 2017',
     comment: '5k',
-    title: 'WADA to investigate fresh Russian Olympic doping claims',
+    title: 'Tour De Malam Jabba',
   },
 ];
 
@@ -103,36 +103,33 @@ class About extends Component {
               <div className='row align-items-start m-b20'>
                 <div className='col-md-12 col-lg-6'>
                   <h2>
-                  Book your tours today with High On Tour because we make the best for all our customers.
+                    Book your tours today with High On Tour because we make the
+                    best for all our customers.
                   </h2>
                 </div>
                 <div className='col-md-6 col-lg-3'>
                   <p>
-                  HighOnTour with the motto of "Wander. Explore. Discover." aims to provide the 
-                  customer with best suitable package whether the customer wants to customize 
-                  a group tour or wants to go with an event tour
+                    HighOnTour with the motto of "Wander. Explore. Discover."
+                    aims to provide the customer with best suitable package
+                    whether the customer wants to customize a group tour or
+                    wants to go with an event tour
                   </p>
                 </div>
                 <div className='col-md-6 col-lg-3'>
                   <p>
-                  also allowing the customer to do an online purchase of things that are very famous 
-                  but not easily available in areas like Lahore, for example Shawls of Naran, honey 
-                  from Murree etc.
+                    also allowing the customer to do an online purchase of
+                    things that are very famous but not easily available in
+                    areas like Lahore, for example Shawls of Naran, honey from
+                    Murree etc.
                   </p>
                 </div>
               </div>
               <div className='row'>
                 <div className='col-lg-6 col-md-6 col-sm-6 m-b30 col-12'>
-                  <img
-                    src={require('./../../images/1a.jpg')}
-                    alt=''
-                  />
+                  <img src={require('./../../images/1a.jpg')} alt='' />
                 </div>
                 <div className='col-lg-6 col-md-6 col-sm-6 m-b30 col-12'>
-                  <img
-                    src={require('./../../images/1b.jpg')}
-                    alt=''
-                  />
+                  <img src={require('./../../images/1b.jpg')} alt='' />
                 </div>
               </div>
               <div className='row'>
@@ -209,11 +206,6 @@ class About extends Component {
             <div className='container'>
               <div className='section-head text-black text-center'>
                 <h2 className='text-uppercase m-b0'>Recent Tours with us</h2>
-                {/* <p>
-                  Lorem Ipsum is simply dummy text of the printing and
-                  typesetting industry. Lorem Ipsum has been the industry's
-                  standard dummy.
-                </p> */}
               </div>
               <Slider
                 className='blog-carousel nav-btn-center-lr btn-1'
@@ -238,18 +230,8 @@ class About extends Component {
                         </div>
                         <div className='dlab-post-title '>
                           <h5 className='post-title font-20'>
-                            <Link to={'./blogdetails'}>{item.title}</Link>
+                            <Link to={'./about'}>{item.title}</Link>
                           </h5>
-                        </div>
-                        <div className='dlab-post-readmore blog-share'>
-                          <Link
-                            to={'./blogdetails'}
-                            title='READ MORE'
-                            rel='bookmark'
-                            className='site-button-link border-link black'
-                          >
-                            READ MORE
-                          </Link>
                         </div>
                       </div>
                     </div>
