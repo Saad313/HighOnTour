@@ -17,7 +17,7 @@ import BookingDetailsMushkpuriTop from './Pages/BookingDetailsMushkpuri';
 import Place from './Pages/Place';
 import Packages from './Pages/Packages';
 import Error404 from './Pages/Error';
-// import Login from './Pages/Login';
+import Login from './Pages/Login';
 
 import Register2 from './Pages/Register2';
 import ForgotPass from './Pages/ForgotPass';
@@ -63,7 +63,7 @@ class Markup extends Component {
             <Route path='/packages' exact component={Packages} />
             <Route path='/error' exact component={Error404} />
 
-            {/* <Route path='/register' exact component={Register} /> */}
+            <Route path='/login' exact component={Login} />
             <Route path='/register2' exact component={Register2} />
             <Route path='/forgot' exact component={ForgotPass} />
 
