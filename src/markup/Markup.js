@@ -17,7 +17,7 @@ import BookingDetailsMushkpuriTop from './Pages/BookingDetailsMushkpuri';
 import Place from './Pages/Place';
 import Packages from './Pages/Packages';
 import Error404 from './Pages/Error';
-import Login from './Pages/Login';
+import Login from './Pages/Login2';
 
 import Register2 from './Pages/Register2';
 import ForgotPass from './Pages/ForgotPass';
